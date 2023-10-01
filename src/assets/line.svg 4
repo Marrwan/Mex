@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+	<title>Banner</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-906.228,-1080,1134.242,-951.742,1413.114,1080)">
+			<stop offset="0" stop-color="#f7ebff"/>
+			<stop offset="1" stop-color="#e8f0ff"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+	</style>
+	<g id="Banner">
+		<g id="bg">
+			<g id="-e-">
+				<path id="Rectangle 3 copy 2" class="s0" d="m0 0h1920c0 0 0 995 0 1080-593-97.8-876.8 0-1139 0-330.3 0-489.7-81.3-781 0 0-236 0-1080 0-1080z"/>
+			</g>
+		</g>
+	</g>
+</svg>
