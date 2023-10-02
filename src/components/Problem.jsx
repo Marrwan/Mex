@@ -2,7 +2,7 @@ import problem from '../assets/problem.png';
 import problem_image from '../assets/problemimage.png';
 function Problem() {
   return (
-    <div className='xs:-mt-[20rem] sm:mt-0'>
+    <div className='xs:-mt-[35rem] min-[380px]:-mt-[30rem] min-[450px]:-mt-[10rem] sm:mt-0'>
         <p className="text-3xl font-semibold tracking-widest text-center lg:-mt-[25rem] mb-[5rem]">The Disconnect Between Influencers & Their Audience </p>
     <div className='grid lg:grid-cols-2 xs:grid-rows-2 gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]'>
       <div className=''>
