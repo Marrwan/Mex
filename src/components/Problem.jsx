@@ -1,10 +1,10 @@
 import problem from '../assets/problem.png';
-import problemimage from '../assets/problemimage.png';
+import problem_image from '../assets/problemimage.png';
 function Problem() {
   return (
-    <div>
+    <div className='xs:-mt-[20rem] sm:mt-0'>
         <p className="text-3xl font-semibold tracking-widest text-center lg:-mt-[25rem] mb-[5rem]">The Disconnect Between Influencers & Their Audience </p>
-    <div className='mt grid lg:grid-cols-2 xs:grid-rows-2 gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]'>
+    <div className='grid lg:grid-cols-2 xs:grid-rows-2 gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]'>
       <div className=''>
         <div className='mt-20 mb-5'>
           <p className='text-2xl font-semibold leading-relaxed tracking-wider scale-y-125 '>Engagement Gap</p>
@@ -28,7 +28,7 @@ function Problem() {
         </p>
       </div>
       <div className='xs:-mt-[1.2rem] sm:-mt-[2.2rem]'>
-        <img className='w-full' src={problemimage} alt="image of two persons looking at each other and surprised" />
+        <img className='w-full' src={problem_image} alt="image of two persons looking at each other and surprised" />
       </div>
     </div>
     </div>

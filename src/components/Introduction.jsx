@@ -2,10 +2,10 @@ import introduction from '../assets/introduction.png';
 import introimage from '../assets/introimage.png';
 function Introduction() {
   return (
-    <div className='mt-20 grid lg:grid-cols-2 xs:grid-rows-2 gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]'>
+    <div className='md:mt-10 xs:mt-0 grid lg:grid-cols-2 xs:grid-rows-2 gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]'>
       <div className='lg:order-2'>
-        <div className='mb-5 mt-20'>
-          <p className='font-semibold text-2xl scale-y-125 tracking-wider leading-relaxed '>Introducing MEX</p>
+        <div className='mt-20 mb-5'>
+          <p className='text-2xl font-semibold leading-relaxed tracking-wider scale-y-125 '>Introducing MEX</p>
           <img className='absolute -mt-[4.5rem] sm:w-[32rem] xs:w-[23rem] -ml-10' src={introduction} alt="Introduction text" />
         </div>
         <p className='mb-5 text-lg'>

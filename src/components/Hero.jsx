@@ -14,7 +14,7 @@ function Hero() {
         <p className="mt-10 font-medium leading-relaxed xs:-ml-10 lg:ml-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum soluta quidem ut molestias esse corrupti velit tempore vero deleniti. A, nam nobis et delectus autem ducimus tempore nihil cumque magnam porro! Animi, alias ab. </p>
         <button className="xs:-ml-10 lg:ml-0 bg-[#6D49FD] text-white rounded-md p-2 mt-5"> Learn More </button>
       </div>
-      <img className="lg:-mt-20 w-full md:-mt-[11rem] sm:-mt-[7rem] xs:mt-10" src={Hero_logo} />
+      <img className="lg:-mt-20 w-full md:-mt-[11rem] sm:-mt-[7rem] xs:mt-[7rem]" src={Hero_logo} />
     </div>
   );
 }
