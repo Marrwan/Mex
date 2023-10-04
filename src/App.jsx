@@ -5,17 +5,21 @@ import Problem from "./components/Problem";
 import Solution from "./components/Solution";
 import Work from "./components/Work";
 import Started from "./components/Started";
+import Join from "./components/Join";
 
 function App() {
   return (
     <div className="container max-w-full">
       <Navbar />
       <Hero />
-      <Introduction/>
-      <Problem/>
-      <Solution/>
-      <Work/>
-      <Started/>
+      <Introduction />
+      <Problem />
+      <Solution />
+      <Work />
+      <div className="bg-gradient-to-b py-10 from-[#E9F0FF] to-[#F7ECFF]">
+        <Started />
+        <Join />{" "}
+      </div>
     </div>
   );
 }

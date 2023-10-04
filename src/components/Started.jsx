@@ -6,7 +6,7 @@ import line1 from "../assets/3@2x.png";
 
 function Started() {
   return (
-    <div className="bg-gradient-to-b py-10 from-[#E9F0FF] to-[#F7ECFF] sm:px-10 xs:px-[2.5rem] h-min">
+    <div className=" sm:px-10 xs:px-[2.5rem] h-min">
       <div className="flex justify-between mt-5 mb-3 py-auto">
         {/* <div className="mt-20 mb-5"> */}
         <p className="text-2xl font-semibold leading-relaxed tracking-wider scale-y-125 ">
