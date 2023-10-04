@@ -6,6 +6,7 @@ import Solution from "./components/Solution";
 import Work from "./components/Work";
 import Started from "./components/Started";
 import Join from "./components/Join";
+import Members from "./components/Members";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Started />
         <Join />{" "}
       </div>
+      <Members/>
     </div>
   );
 }

@@ -2,6 +2,7 @@
 import join from "../assets/15.png";
 import Join_image from "../assets/2.png";
 import line2 from "../assets/@2x.png";
+import join2 from "../assets/joinpic.png";
 function Join() {
   return (
     // <div className="xs:mt-[35rem] min-[380px]:-mt-[30rem] min-[450px]:-mt-[10rem] sm:mt-5">
@@ -35,12 +36,17 @@ function Join() {
         </div>
         <div className="">
           <img className="z-50 w-full" src={Join_image} alt="Happy image" />
+          <img
+            src={join2}
+            alt="Happy Image"
+            className="absolute z-50 w-[32rem] ml-[2.3rem] -mt-[29rem] xs:hidden lg:block"
+          />
         </div>
       </div>
       <img
         src={line2}
         alt="Line"
-        className=" xs:hidden lg:block absolute -mt-[40rem] "
+        className=" xs:hidden lg:block absolute -mt-[38rem] "
       />{" "}
     </div>
   );
