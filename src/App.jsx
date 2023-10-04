@@ -17,7 +17,7 @@ function App() {
       <Problem />
       <Solution />
       <Work />
-      <div className="bg-gradient-to-b py-10 from-[#E9F0FF] to-[#F7ECFF]">
+      <div className="h-max bg-gradient-to-b py-10 from-[#E9F0FF] to-[#F7ECFF]">
         <Started />
         <Join />{" "}
       </div>
