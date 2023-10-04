@@ -2,6 +2,7 @@ import started from "../assets/started.png";
 import seven from "../assets/7.png";
 import eight from "../assets/8.png";
 import nine from "../assets/9.png";
+import line1 from "../assets/3@2x.png";
 
 function Started() {
   return (
@@ -46,6 +47,7 @@ function Started() {
             The more comprehensive your sample, the more personalized and
             engaging the experience will be for your fans!
           </p>
+          <img src={line1} alt="Line" className="absolute sm:-mt-[5rem] xs:-mt-[3rem] -ml-10 lg:-mt-[10rem] " />
         </div>
         <div className="mb-10">
           <img
