@@ -3,6 +3,7 @@ import Mexbg from '../assets/mexbg.png';
 
 function Hero() {
   return (
+    
     <div className="bg-gradient-to-r from-[#EEF0FF] to-[#F7ECFF] gap-x-10 grid w-screen lg:grid-cols-2 xs:grid-rows-2 lg:p-20 xs:px-20 xs:pt-10 lg:h-screen">
       <div className='lg:my-auto'>
         <div className="mb-5">

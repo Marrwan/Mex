@@ -4,6 +4,7 @@ import Introduction from "./components/Introduction";
 import Problem from "./components/Problem";
 import Solution from "./components/Solution";
 import Work from "./components/Work";
+import Started from "./components/Started";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Problem/>
       <Solution/>
       <Work/>
+      <Started/>
     </div>
   );
 }
