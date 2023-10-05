@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import facebook from "../assets/6@2X.png";
+import facebook from "../assets/6@2x.png";
 import instagram from "../assets/7@2x.png";
 import linkedin from "../assets/8@2x.png";
 import twitter from "../assets/9@2x.png";
