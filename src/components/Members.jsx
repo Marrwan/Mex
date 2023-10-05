@@ -53,7 +53,7 @@ function Members() {
         />
       </div>
       <Swipe className="flex justify-around overflow-hidden sm:items-center xs:items-baseline lg:hidden"> 
-      <div onClick={prevSlide} className="text-white h-8  bg-[#6D49FD] p-2 w-max px-6 ">
+      <div onClick={prevSlide} className="text-white cursor-pointer h-8  bg-[#6D49FD] p-2 w-max px-6 ">
           
 <BsArrowLeft /> 
         </div>
@@ -87,7 +87,7 @@ function Members() {
             </div>
           );
         })} 
-        <div onClick={nextSlide} className="text-white h-8 bg-[#6D49FD] p-2 w-max px-6">
+        <div onClick={nextSlide} className="cursor-pointer text-white h-8 bg-[#6D49FD] p-2 w-max px-6">
           
 <BsArrowRight />
         </div>
