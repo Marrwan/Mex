@@ -1,7 +1,6 @@
 import  { useState } from "react";
 import Swipe from "react-easy-swipe";
 import {FaArrowRight, FaArrowLeft} from 'react-icons/fa6';
-
 import members from "../assets/members.png";
 import John from "../assets/12.png";
 import Marylin from "../assets/13.png";

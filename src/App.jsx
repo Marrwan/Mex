@@ -7,6 +7,7 @@ import Work from "./components/Work";
 import Started from "./components/Started";
 import Join from "./components/Join";
 import Members from "./components/Members";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Join />{" "}
       </div>
       <Members/>
+      <Contact/>
     </div>
   );
 }
