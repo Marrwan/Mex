@@ -39,14 +39,14 @@ function Join() {
           <img
             src={join2}
             alt="Happy Image"
-            className="absolute z-50 w-[32rem] ml-[2.3rem] -mt-[29rem] xs:hidden lg:block"
+            className="absolute z-50 min-[1500px]:-mt-[33.6rem] min-[1500px]:w-[625px] min-[1400px]:w-[32rem] ml-[2.3rem] -mt-[29rem] xs:hidden lg:block"
           />
         </div>
       </div>
       <img
         src={line2}
         alt="Line"
-        className=" xs:hidden lg:block absolute -mt-[38rem] "
+        className="min-[1500px]:-mt-[44rem] xs:hidden lg:block absolute -mt-[38rem] "
       />{" "}
     </div>
   );

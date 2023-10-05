@@ -5,7 +5,6 @@ import members from "../assets/members.png";
 import John from "../assets/12.png";
 import Marylin from "../assets/13.png";
 import Eliso from "../assets/14.png";
-import line1 from "../assets/3@2x.png";
 
 function Members() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -79,11 +78,8 @@ function Members() {
                 lorem gravida. Donec sed nec nunc cursus, varius eros at,
                 vehicula erat.
               </p>
-              <img
-                src={line1}
-                alt="Line"
-                className="absolute sm:-mt-[5rem] xs:-mt-[3rem] -ml-10 lg:-mt-[10rem] "
-              />
+              
+              {""}
             </div>
           );
         })} 
@@ -110,11 +106,7 @@ function Members() {
             Donec imperdiet leo ac quam pellentesque, sit amet fermentum lorem
             gravida. Donec sed nec nunc cursus, varius eros at, vehicula erat.
           </p>
-          <img
-            src={line1}
-            alt="Line"
-            className="absolute sm:-mt-[5rem] xs:-mt-[3rem] -ml-10 lg:-mt-[10rem] "
-          />
+         
         </div>
         <div className="mb-10">
           <img

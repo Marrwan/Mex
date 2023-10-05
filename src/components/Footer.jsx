@@ -7,7 +7,7 @@ import Mex from "../assets/Mex.svg";
 
 function Footer() {
   return (
-    <div className="lg:py-3 lg:px-5 place-items-center w-full max-w-screen border-t-[1px] border-gray-500 mt-10 xs:grid grid-rows-3  xs:py-10 lg:flex xs:justify-center lg:justify-between items-center">
+    <div className="lg:py-3 lg:px-5 place-items-center w-full max-w-screen border-t-[1px] border-gray-500 xs:mt-10  lg:h-max xs:grid grid-rows-3  xs:py-10 lg:flex xs:justify-center lg:justify-between items-center">
       <div className="xs:order-last mb-0 lg:order-first flex-row text-sm">
         <p>&copy; MEX. All Rights Reserved </p>
         <p className="flex ">

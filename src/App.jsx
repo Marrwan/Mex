@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="container max-w-full">
+    <div className="container max-w-full max-h-max">
       <Navbar />
       <Hero />
       <Introduction />
