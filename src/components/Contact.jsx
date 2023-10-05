@@ -9,7 +9,6 @@ import message from "../assets/5@2x.png";
 
 function Contact() {
   return (
-    // <div className="xs:mt-[35rem] min-[380px]:-mt-[30rem] min-[450px]:-mt-[10rem] sm:mt-5">
     <div className="">
       <div className="z-auto mt-20 grid lg:grid-cols-2 xs:grid-rows-2 lg:gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]">
         <div className="">
@@ -91,12 +90,7 @@ function Contact() {
               placeholder="Phone"
               aria-label="Phone"
             />
-            {/* <textarea
-                className="mr-[2rem] appearance-none bg-transparent border-b-[1px] border-black w-full text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
-                type="text"
-                placeholder="First name"
-                aria-label="First name"
-              /> */}
+           
             <textarea
               aria-label="Message"
               placeholder="Message"
