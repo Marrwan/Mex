@@ -74,7 +74,7 @@ function Contact() {
           />
         </div>
       </div>
-      <img
+      <img 
         src={line2}
         alt="Line"
         className=" xs:hidden lg:block absolute -mt-[38rem] "
