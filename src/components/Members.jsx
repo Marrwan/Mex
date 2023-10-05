@@ -1,6 +1,7 @@
 import  { useState } from "react";
 import Swipe from "react-easy-swipe";
-import {BsArrowRight, BsArrowLeft} from 'react-icons/Bs';
+import {FaArrowRight, FaArrowLeft} from 'react-icons/fa6';
+
 import members from "../assets/members.png";
 import John from "../assets/12.png";
 import Marylin from "../assets/13.png";
@@ -55,7 +56,7 @@ function Members() {
       <Swipe className="flex justify-around overflow-hidden sm:items-center xs:items-baseline lg:hidden"> 
       <div onClick={prevSlide} className="text-white cursor-pointer h-8  bg-[#6D49FD] p-2 w-max px-6 ">
           
-<BsArrowLeft /> 
+<FaArrowLeft /> 
         </div>
         {CarouselData.map((slide, index) => {
           return (
@@ -89,7 +90,7 @@ function Members() {
         })} 
         <div onClick={nextSlide} className="cursor-pointer text-white h-8 bg-[#6D49FD] p-2 w-max px-6">
           
-<BsArrowRight />
+<FaArrowRight />
         </div>
       </Swipe> 
       
