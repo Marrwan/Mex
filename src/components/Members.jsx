@@ -26,8 +26,8 @@ function Members() {
             className="w-[13rem] p-4 mb-3 bg-white rounded-2xl"
           />
           
-        <p className="font-medium text-center text-md">
-          <p className="mb-2 font-medium text-center">CO-FOUNDER</p>
+        <p className="font-medium leading-loose text-center text-md"> John Smith</p>
+          <p className="mb-2 text-sm text-center">CO-FOUNDER</p>
           <p className="mb-2 text-sm w-[15rem]">
             Donec imperdiet leo ac quam pellentesque, sit amet fermentum lorem
             gravida. Donec sed nec nunc cursus, varius eros at, vehicula erat.
@@ -45,7 +45,7 @@ function Members() {
             className="w-[13rem] p-4 mb-3 bg-white rounded-2xl"
           />
           
-        <p className="font-medium text-center text-md">
+        <p className="font-medium text-center text-md"> Marylin Wilcox</p>
           <p className="mb-2 font-medium text-center">CFO </p>
           <p className="mb-2 text-sm w-[15rem]">
             Donec imperdiet leo ac quam pellentesque, sit amet fermentum lorem
@@ -60,7 +60,7 @@ function Members() {
           />
           
           
-        <p className="font-medium text-center text-md">
+        <p className="font-medium text-center text-md"> Elisa Tyson</p>
           <p className="mb-3 font-medium text-center">CHO</p>
           <p className="mb-2 text-sm w-[15rem]">
             Donec imperdiet leo ac quam pellentesque, sit amet fermentum lorem
