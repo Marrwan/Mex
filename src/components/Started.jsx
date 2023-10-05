@@ -47,7 +47,7 @@ function Started() {
             The more comprehensive your sample, the more personalized and
             engaging the experience will be for your fans!
           </p>
-          <img src={line1} alt="Line" className="absolute sm:-mt-[5rem] xs:-mt-[3rem] -ml-10 lg:-mt-[10rem] " />
+          <img src={line1} alt="Line" className="absolute  sm:-mt-[5rem] xs:-mt-[3rem] -ml-10 lg:-mt-[10rem] max-w-screen " />
         </div>
         <div className="mb-10">
           <img

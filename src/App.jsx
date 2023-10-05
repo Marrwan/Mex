@@ -8,6 +8,7 @@ import Started from "./components/Started";
 import Join from "./components/Join";
 import Members from "./components/Members";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       </div>
       <Members/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

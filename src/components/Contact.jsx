@@ -1,14 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import contact from "../assets/11.png";
-import Join_image from "../assets/2.png";
 import phone from "../assets/10.png";
 import facebook from "../assets/6@2X.png";
 import instagram from "../assets/7@2x.png";
 import linkedin from "../assets/8@2x.png";
 import twitter from "../assets/9@2x.png";
 import message from "../assets/5@2x.png";
-import line2 from "../assets/@2x.png";
-import join2 from "../assets/joinpic.png";
+
 function Contact() {
   return (
     // <div className="xs:mt-[35rem] min-[380px]:-mt-[30rem] min-[450px]:-mt-[10rem] sm:mt-5">
@@ -65,20 +63,55 @@ function Contact() {
             <img className="w-6 h-6" src={linkedin} alt="" />
           </div>
         </div>
-        <div className="">
-          <img className="z-50 w-full" src={Join_image} alt="Happy image" />
-          <img
-            src={join2}
-            alt="Happy Image"
-            className="absolute z-50 w-[32rem] ml-[2.3rem] -mt-[29rem] xs:hidden lg:block"
-          />
+        <div className="bg-gradient-to-b p-10 rounded-[2rem]  from-[#E9F0FF] to-[#F7ECFF] oh">
+          <form className="w-full  oh grid grid-rows-5 place-content-center ">
+            <div className="flex items-center  py-2">
+              <input
+                className="mr-[2rem] appearance-none bg-transparent border-b-[1px] border-black w-full text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
+                type="text"
+                placeholder="First name"
+                aria-label="First name"
+              />
+              <input
+                className="mr-[2rem] appearance-none bg-transparent border-b-[1px] border-black w-full text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
+                type="text"
+                placeholder="Last name"
+                aria-label="Last name"
+              />
+            </div>{" "}
+            <input
+              className="mr-[2rem] appearance-none bg-transparent border-b-[1px] border-black w-full text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="email"
+              placeholder="Email"
+              aria-label="Email"
+            />
+            <input
+              className="mr-[2rem] appearance-none bg-transparent border-b-[1px] border-black w-full text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="tel"
+              placeholder="Phone"
+              aria-label="Phone"
+            />
+            {/* <textarea
+                className="mr-[2rem] appearance-none bg-transparent border-b-[1px] border-black w-full text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
+                type="text"
+                placeholder="First name"
+                aria-label="First name"
+              /> */}
+            <textarea
+              aria-label="Message"
+              placeholder="Message"
+              className="w-full px-3 py-2 text-black border-b-[1px] border-black  focus:outline-none bg-transparent"
+              rows="4"
+            ></textarea>
+            <button
+              className="flex-shrink-0 bg-[#6E49FD] hover:bg-[#6E49FD]-700 rounded-lg text-sm border-4 text-white w-max px-5 h-[3rem] mt-9  "
+              type="button"
+            >
+              SEND MESSAGE
+            </button>
+          </form>
         </div>
       </div>
-      <img 
-        src={line2}
-        alt="Line"
-        className=" xs:hidden lg:block absolute -mt-[38rem] "
-      />{" "}
     </div>
   );
 }

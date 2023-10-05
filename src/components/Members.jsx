@@ -47,7 +47,7 @@ function Members() {
         </p>
  
         <img
-          className="absolute -mt-[5rem] ml-[29rem] w-[25rem] "
+          className="absolute -mt-[5rem] sm:ml-[10rem] xs:ml-[0rem] min-[500px]:ml-[5rem] xs:w-[19rem] lg:ml-[29rem] sm:w-[25rem] "
           src={members}
           alt="Members"
         />
@@ -87,7 +87,7 @@ function Members() {
             </div>
           );
         })} 
-        <div onClick={nextSlide} className="cursor-pointer text-white h-8 bg-[#6D49FD] p-2 w-max px-6">
+        <div onClick={nextSlide} className="cursor-pointer text-white h-8 bg-[#6D49FD] xs:pr-5 sm:p-2 w-max sm:px-6">
           
 <FaArrowRight />
         </div>

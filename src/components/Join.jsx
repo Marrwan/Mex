@@ -14,7 +14,7 @@ function Join() {
               Join Us in Reshaping Influencer Engagement
             </p>
             <img
-              className="absolute -mt-[4.5rem] sm:w-[32rem] xs:w-[23rem] -ml-[3.5rem]"
+              className="absolute -mt-[4.5rem] sm:w-[30rem] xs:w-[20rem] -ml-[3.5rem]"
               src={join}
               alt="Join text"
             />
@@ -29,7 +29,7 @@ function Join() {
             opportunities that await us. Contact us today to schedule a meeting
             and embark on this transformative journey together.
           </p>
-          <button className="xs:-ml-10 lg:ml-0 bg-[#6D49FD] text-white rounded-md p-2 mt-5 px-5">
+          <button className=" lg:ml-0 bg-[#6D49FD] text-white rounded-md p-2 mt-5 px-5">
             {" "}
             Contact Us{" "}
           </button>
