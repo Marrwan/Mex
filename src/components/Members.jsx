@@ -45,7 +45,7 @@ function Members() {
         <p className="text-2xl font-semibold leading-relaxed tracking-wider scale-y-125 ">
           How to get Started?
         </p>
-
+ 
         <img
           className="absolute -mt-[5rem] ml-[29rem] w-[25rem] "
           src={members}
