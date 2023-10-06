@@ -61,9 +61,9 @@ function Contact() {
           <img className="sm:w-6 sm:h-6 xs:w-5 xs:h-5" src={linkedin} alt="linkedin" />
         </div>
       </div>
-      <div className="bg-gradient-to-b xs:p-5 sm:p-10 rounded-[2rem]  from-[#E9F0FF] to-[#F7ECFF] xs:-mt-[5rem] lg:-mt-0">
-        <form className="w-full  oh grid grid-rows-5 place-content-center ">
-          <div className="flex items-center  py-2">
+      <div className="bg-gradient-to-b xs:p-5 sm:p-10 rounded-[2rem]  from-[#E9F0FF] to-[#F7ECFF] xs:-mt-[2rem] sm:-mt-[5rem] lg:-mt-0">
+        <form className="grid w-full grid-rows-5 oh place-content-center ">
+          <div className="flex items-center py-2">
             <input
               className="mr-[2rem] appearance-none bg-transparent border-b-[1px] border-black w-full text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
               type="text"
