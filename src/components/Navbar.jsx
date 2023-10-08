@@ -8,7 +8,7 @@ function Navbar() {
   const [menu, setMenu] = useState(false);
   // Function to toggle the menu icon
   const toggleMenu = () => {
-   console.log(menu);
+  
     setMenu(!menu);
   }
   return (
