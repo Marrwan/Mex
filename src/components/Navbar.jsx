@@ -20,7 +20,7 @@ function Navbar() {
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
         </svg>
     </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+    <div className="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg xs:bg-[#6D49FD] md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white  dark:border-[#fff] items-center">
         <li>
           <a href="#" className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded text- md:bg-transparent md:p-0 md:text-black xs:text-white md:text-blue-700 dark:text-white md:dark:text-blue-500 md:hover:text-[#6D49FD]" aria-current="page">Home</a>
