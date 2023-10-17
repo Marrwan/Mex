@@ -7,7 +7,7 @@ function Join() {
   return (
     // <div className="xs:mt-[35rem] min-[380px]:-mt-[30rem] min-[450px]:-mt-[10rem] sm:mt-5">
     <>
-      <div className="z-auto mt-20 grid lg:grid-cols-2 xs:grid-rows-1 sm:grid-rows-2 lg:gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]">
+      <div id="join" className="z-auto mt-20 grid lg:grid-cols-2 xs:grid-rows-1 sm:grid-rows-2 lg:gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]">
         <div className="order-2">
           <div className="mb-5 ">
             <p className="text-2xl font-semibold leading-relaxed tracking-wider scale-y-125 w-[100%] mt-10">

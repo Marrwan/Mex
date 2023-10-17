@@ -3,7 +3,7 @@ import solution from "../assets/solution.png";
 import solution_image from "../assets/solutionimage.png";
 function Solution() {
   return (
-    <div className="xs:-mt-[35rem] min-[380px]:-mt-[30rem] min-[450px]:-mt-[10rem] sm:mt-5">
+    <div id="solution" className="xs:-mt-[35rem] min-[380px]:-mt-[30rem] min-[450px]:-mt-[10rem] sm:mt-5">
       <p className="text-3xl font-semibold tracking-widest text-center lg:-mt-[25rem] mb-[5rem]">
         A platform which allows influencers to create personal, thoughtful and
         deeper engagements with their audience, at a fraction of the effort.

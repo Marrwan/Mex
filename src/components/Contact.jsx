@@ -9,7 +9,7 @@ import message from "../assets/5@2x.png";
 
 function Contact() {
   return (
-    <div className="z-auto mt-20 grid lg:grid-cols-2 xs:grid-rows-2 lg:grid-rows-1 lg:gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]">
+    <div id="contact"  className="z-auto mt-20 grid lg:grid-cols-2 xs:grid-rows-2 lg:grid-rows-1 lg:gap-x-[3.5rem] sm:px-20 xs:px-[2.5rem]">
       <div className="">
         <div className="mb-5 ">
           <p className="text-2xl font-semibold leading-relaxed tracking-wider scale-y-125 w-[75%]">

@@ -9,7 +9,7 @@ import four from '../assets/5.png';
 import five from '../assets/6.png';
 function Work() {
   return (
-    <div className="xs:-mt-[35rem] min-[380px]:-mt-[30rem] min-[450px]:-mt-[10rem] min-[400px]:-mt-[25rem]  sm:mt-7 mb-[10rem]">
+    <div id="works"  className="xs:-mt-[35rem] min-[380px]:-mt-[30rem] min-[450px]:-mt-[10rem] min-[400px]:-mt-[25rem]  sm:mt-7 mb-[10rem]">
       <p className="text-3xl font-semibold tracking-widest text-center lg:-mt-[25rem] mb-[5rem]"> How it Works?
      <img
               className="xs:hidden lg:
